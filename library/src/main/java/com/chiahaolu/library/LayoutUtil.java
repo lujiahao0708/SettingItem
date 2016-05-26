@@ -9,10 +9,8 @@ import android.view.Display;
 import java.lang.reflect.Field;
 
 /**
- * 布局填充工具
- * @author chiahao
- * @date 2015年12月11日10:22:14
- *
+ * Created by lujiahao
+ * Created at 2016/5/26 15:53
  */
 public final class LayoutUtil {
 

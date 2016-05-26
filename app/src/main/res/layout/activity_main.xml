@@ -10,61 +10,96 @@
     <com.chiahaolu.library.SettingItem
         android:id="@+id/settingItem"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_marginTop="50dp"
-        android:background="#99555555"
-
-        settingitem:leftIconIsShow="true"
-        settingitem:leftIconResId="@drawable/item_paymethod_wechat"
-        settingitem:leftIconWidth="45px"
-        settingitem:leftIconHeight="45px"
-        settingitem:leftIconMarginLeft="16dp"
-
-        settingitem:leftText="微信支付"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        settingitem:leftText="设置"
         settingitem:leftTextSize="32px"
-        settingitem:leftTextColor="@color/colorAccent"
+        settingitem:leftTextColor="#666666"
         settingitem:leftTextMarginLeft="16dp"
-
-        settingitem:rightIconIsShow="true"
-        settingitem:rightIconResId="@drawable/selector_today_park_icon"
-        settingitem:rightIconWidth="45px"
-        settingitem:rightIconHeight="45px"
+        settingitem:rightIconResId="@drawable/right_arrow"
+        settingitem:rightIconWidth="32px"
+        settingitem:rightIconHeight="32px"
         settingitem:rightIconMarginRight="16dp"
-
+        settingitem:rightText="右侧文字"
+        settingitem:rightTextSize="32px"
+        settingitem:rightTextColor="#666666"
+        settingitem:rightTextMarginRight="16dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#999999"/>
+    <com.chiahaolu.library.SettingItem
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        settingitem:leftText="设置"
+        settingitem:leftTextSize="32px"
+        settingitem:leftTextColor="#666666"
+        settingitem:leftTextMarginLeft="16dp"
+        settingitem:rightIconIsShow="true"
+        settingitem:rightIconResId="@drawable/right_arrow"
+        settingitem:rightIconWidth="32px"
+        settingitem:rightIconHeight="32px"
+        settingitem:rightIconMarginRight="16dp"
         settingitem:rightTextIsShow="true"
         settingitem:rightText="右侧文字"
         settingitem:rightTextSize="32px"
-        settingitem:rightTextColor="@color/colorAccent"
-        settingitem:rightTextMarginRight="16dp"
-        />
+        settingitem:rightTextColor="#666666"
+        settingitem:rightTextMarginRight="16dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#999999"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:text="支付方式:"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
     <com.chiahaolu.library.SettingItem
-        android:id="@+id/settingItem1"
+        android:id="@+id/settingItemWechat"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginTop="8dp"
-        android:background="#99555555"
-
+        android:layout_marginBottom="8dp"
         settingitem:leftIconIsShow="true"
         settingitem:leftIconResId="@drawable/item_paymethod_wechat"
         settingitem:leftIconWidth="45px"
         settingitem:leftIconHeight="45px"
         settingitem:leftIconMarginLeft="16dp"
-
         settingitem:leftText="微信支付"
         settingitem:leftTextSize="32px"
-        settingitem:leftTextColor="@color/colorAccent"
+        settingitem:leftTextColor="#666666"
         settingitem:leftTextMarginLeft="16dp"
-
         settingitem:rightIconIsShow="true"
         settingitem:rightIconResId="@drawable/selector_today_park_icon"
         settingitem:rightIconWidth="45px"
         settingitem:rightIconHeight="45px"
-        settingitem:rightIconMarginRight="16dp"
-
-        settingitem:rightTextIsShow="true"
-        settingitem:rightText="右侧文字"
-        settingitem:rightTextSize="32px"
-        settingitem:rightTextColor="@color/colorAccent"
-        settingitem:rightTextMarginRight="16dp"
-        />
+        settingitem:rightIconMarginRight="16dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#999999"/>
+    <com.chiahaolu.library.SettingItem
+        android:id="@+id/settingItemAlipay"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        settingitem:leftIconIsShow="true"
+        settingitem:leftIconResId="@drawable/item_paymethod_alipay"
+        settingitem:leftIconWidth="45px"
+        settingitem:leftIconHeight="45px"
+        settingitem:leftIconMarginLeft="16dp"
+        settingitem:leftText="支付宝支付"
+        settingitem:leftTextSize="32px"
+        settingitem:leftTextColor="#666666"
+        settingitem:leftTextMarginLeft="16dp"
+        settingitem:rightIconIsShow="true"
+        settingitem:rightIconResId="@drawable/selector_today_park_icon"
+        settingitem:rightIconWidth="45px"
+        settingitem:rightIconHeight="45px"
+        settingitem:rightIconMarginRight="16dp" />
 </LinearLayout>
