@@ -30,21 +30,34 @@
         android:background="#999999"/>
     <com.chiahaolu.library.SettingItem
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="100px"
         settingitem:leftText="设置"
         settingitem:leftTextSize="32px"
         settingitem:leftTextColor="#666666"
-        settingitem:leftTextMarginLeft="16dp"
+        settingitem:leftTextMarginLeft="35px"
         settingitem:rightIconIsShow="true"
         settingitem:rightIconResId="@drawable/right_arrow"
         settingitem:rightIconWidth="32px"
         settingitem:rightIconHeight="32px"
-        settingitem:rightIconMarginRight="16dp"
+        settingitem:rightIconMarginRight="35px"
         settingitem:rightTextIsShow="true"
         settingitem:rightText="右侧文字"
         settingitem:rightTextSize="32px"
         settingitem:rightTextColor="#666666"
-        settingitem:rightTextMarginRight="16dp" />
+        settingitem:rightTextMarginRight="35px" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:textSize="32px"
+            android:textColor="#666666"
+            android:layout_marginLeft="35px"
+            />
+    </LinearLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"

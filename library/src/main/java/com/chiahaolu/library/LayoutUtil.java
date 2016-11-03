@@ -33,7 +33,12 @@ public final class LayoutUtil {
     }
 
     public static int getPixelBySP(Context context, int sp) {
-        return (int) (context.getResources().getDisplayMetrics().scaledDensity * sp);
+        //return (int) (context.getResources().getDisplayMetrics().scaledDensity * sp);
+        return (int) (context.getResources().getDisplayMetrics().scaledDensity * sp + 0.5f);
+    }
+
+    public static int getSpByPixel(Context context, int pixel){
+        return (int) (pixel / context.getResources().getDisplayMetrics().scaledDensity + 0.5f);
     }
 
     public static void unLockScreenRotation(Activity activity) {

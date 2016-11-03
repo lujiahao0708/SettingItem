@@ -79,7 +79,7 @@ public class SettingItem extends LinearLayout {
         if (leftTextIsShow) {
             mTvLeft.setText(leftText);
             mTvLeft.setTextColor(leftTextColor);
-            mTvLeft.setTextSize(LayoutUtil.getDIPByPixel(getContext(), (int) leftTextSize));
+            mTvLeft.setTextSize(LayoutUtil.getSpByPixel(getContext(), (int) leftTextSize));
             LayoutParams leftTextParams = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
             leftTextParams.gravity = Gravity.LEFT | Gravity.CENTER_VERTICAL;
             leftTextParams.weight = 1;
@@ -90,7 +90,7 @@ public class SettingItem extends LinearLayout {
         if (rightTextIsShow) {
             mTvRight.setText(rightText);
             mTvRight.setTextColor(rightTextColor);
-            mTvRight.setTextSize(LayoutUtil.getDIPByPixel(getContext(), (int) rightTextSize));
+            mTvRight.setTextSize(LayoutUtil.getSpByPixel(getContext(), (int) rightTextSize));
             LayoutParams rightTextParams = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
             rightTextParams.gravity = Gravity.RIGHT | Gravity.CENTER_VERTICAL;
             rightTextParams.weight = 1;
