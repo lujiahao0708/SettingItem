@@ -1,3 +1,8 @@
+@Deprecated
+
+该项目已不再维护，请寻找其他开源项目替代，感谢支持！
+
+---
 # SettingItem
 Items for Setting/PayMethod,etc.
 
